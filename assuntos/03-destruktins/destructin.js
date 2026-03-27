@@ -2,8 +2,8 @@
 
 let caracteristica = {
     nome: 'lucas',
-    idade: 1,
-    skill: ['js', 'html', 'pup', 'node']
+    idade: 12,
+    skill: ['js', 'html', 'pgp', 'node']
 }
 
 
@@ -26,3 +26,18 @@ console.log(lucas)
 const  [elemento1, elemento2, elemento3] = skill
 
 console.log(elemento1,elemento2,elemento3)
+
+
+function creatUser({nome, idade, skill}){
+    const id = Math.floor(Math.random()* 9999)
+    return {
+        id,
+        nome,
+        idade,
+        skill
+    }
+}
+
+
+const luke = creatUser(caracteristica)
+console.log(luke)
