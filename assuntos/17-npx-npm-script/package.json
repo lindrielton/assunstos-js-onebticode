@@ -1,0 +1,16 @@
+{
+  "name": "17-npx-npm-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "hellow": "npx hello-world-npm",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
+}
