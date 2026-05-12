@@ -1,4 +1,3 @@
-// media simples
 let mediaSimples = (...lista) => {
   let soma = lista.reduce((acumula, list) => acumula + list, 0);
   let quantidade = lista.length;
