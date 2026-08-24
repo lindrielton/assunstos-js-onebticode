@@ -6,6 +6,7 @@ console.log(...towns[0])
 
 
 
+
 const towsCop = towns
 
 towsCop.pop()
